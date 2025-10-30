@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import { motion } from "framer-motion";
 import { TypeAnimation } from "react-type-animation";
-import ProfilePic from "../assets/profile.jpg";
+import ProfilePic from "../assets/profile1.jpg";
 
 export default function Home() {
   useEffect(() => {
