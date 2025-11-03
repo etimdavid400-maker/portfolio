@@ -2,6 +2,8 @@ import React, { useEffect } from "react";
 import { motion } from "framer-motion";
 import { TypeAnimation } from "react-type-animation";
 import ProfilePic from "../assets/profile1.jpg";
+import { Link } from "react-router-dom";
+
 
 export default function Home() {
   useEffect(() => {
@@ -115,7 +117,7 @@ export default function Home() {
 
         <TypeAnimation
           sequence={[
-            "Frontend Developer",
+            "Software Developer",
             2000,
             "React.js Hacker",
             2000,
@@ -136,12 +138,12 @@ export default function Home() {
         </p>
 
         <div className="mt-8">
-          <a
-            href="/projects"
+          <Link
+            to="/projects"
             className="border border-green-500 text-green-400 px-8 py-2 rounded-md hover:bg-green-500 hover:text-black transition-all duration-300 shadow-[0_0_25px_rgba(0,255,128,1)]"
           >
             View Projects
-          </a>
+          </Link>
         </div>
       </motion.div>
 
